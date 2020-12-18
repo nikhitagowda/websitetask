@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url(assets/bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li.active a{
+   background-color: #fff;
+    color: #000;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+ul li a:hover{
+    background-color: white;
+    color: #000;
+    
+}
+.logo img{
+    float: left;
+    width:150px;
+    height: auto;
+}
+
+.maim{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title h1{
+    position:absolute;
+    top:25%;
+    left :20%
+}
+
+.title h1{
+    color: white;
+    font-size: 40px;
+}
+.title h3{
+    position:absolute;
+    top:40%;
+    left :20%
+}
+.title h3{
+    color: white;
+    font-size: 20px;
+
+}
+.title p{
+    position:absolute;
+    top:55%;
+    left :20%
+}
+.title p{
+    color: white;
+   
+}
+
+.button{
+        position:absolute;
+    top:65%;
+    left :20%;
+     padding: 10px 10px
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-active{
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+.img{
+    position:absolute;
+    top:20%;
+    left: 60%;
+}
+
+.img h4{
+     color: white;
+    position:absolute;
+    top:20%;
+    left: 30%;
+    font-size: 40px;
+}
+.img h3{
+     color: white;
+    position:absolute;
+    top:30%;
+    left: 20%;
+    font-size: 30px;
+}
+.img h1{
+     color: white;
+    position:absolute;
+    top:40%;
+    left: 30%;
+    font-size: 110px;
+}
+.img h5{
+     color: white;
+    position:absolute;
+    top:70%;
+    left: 40%;
+    font-size: 20px;
+}
+.footer{
+        position:absolute;
+    top:90%;
+    left: 80%;
+}
